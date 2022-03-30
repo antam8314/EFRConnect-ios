@@ -104,7 +104,7 @@
 		<string>OpenSans-Regular.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
-	<string>LaunchImage</string>
+	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>HomeScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
