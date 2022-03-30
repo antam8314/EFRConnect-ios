@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "fs40.png",
+      "filename" : "FS_splash.png",
       "idiom" : "iphone",
       "scale" : "1x"
     },
     {
-      "filename" : "fs80.png",
+      "filename" : "FS_splash-1.png",
       "idiom" : "iphone",
       "scale" : "2x"
     },
     {
-      "filename" : "fs120.png",
+      "filename" : "FS_splash-2.png",
       "idiom" : "iphone",
       "scale" : "3x"
     }
