@@ -892,7 +892,6 @@
 		495BF3501E5F6A81002B3F8D /* SILEddystoneBeaconViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 495BF34F1E5F6A81002B3F8D /* SILEddystoneBeaconViewModel.m */; };
 		496A42F31E7C582F006E87F2 /* SILBigRedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 496A42F21E7C582F006E87F2 /* SILBigRedButton.m */; };
 		4977B0321E607D99006DE78C /* EddystoneScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4977B0311E607D99006DE78C /* EddystoneScanner.swift */; };
-		4990CB48CB947376AC957E0D /* Pods_SiliconLabsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53141C6BB0A69CCB49A16AB2 /* Pods_SiliconLabsAppTests.framework */; };
 		49BB94B21E68F2DC0068670E /* SILAdvertisementDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB94B11E68F2DC0068670E /* SILAdvertisementDataViewModel.m */; };
 		49BB94B51E68FB4B0068670E /* SILDiscoveredPeripheralDisplayDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB94B41E68FB4B0068670E /* SILDiscoveredPeripheralDisplayDataViewModel.m */; };
 		49C10EEF1E71E0EC00C67256 /* SILOTAFirmwareUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C10EEE1E71E0EC00C67256 /* SILOTAFirmwareUpdateManager.m */; };
@@ -1120,7 +1119,6 @@
 		0461B3662719DD900076D627 /* EnvironmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentCollectionViewCell.swift; sourceTree = "<group>"; };
 		048E4FD32719CFF7009D88A3 /* SimulatedIoDemoConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatedIoDemoConnection.swift; sourceTree = "<group>"; };
 		048E4FDF2719D022009D88A3 /* SimulatedDeviceScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatedDeviceScanner.swift; sourceTree = "<group>"; };
-		06CC32BDFF67F87AF59FFD4D /* Pods-BlueGeckoWithHomeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGeckoWithHomeKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGeckoWithHomeKit/Pods-BlueGeckoWithHomeKit.debug.xcconfig"; sourceTree = "<group>"; };
 		070167481BE2B5B70075F005 /* SILBitFieldFieldModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILBitFieldFieldModel.h; sourceTree = "<group>"; };
 		070167491BE2B5B70075F005 /* SILBitFieldFieldModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SILBitFieldFieldModel.m; sourceTree = "<group>"; };
 		0702AB2A1BDFEE35009527B0 /* SILCharacteristicFieldValueResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILCharacteristicFieldValueResolver.h; sourceTree = "<group>"; };
@@ -1131,7 +1129,6 @@
 		0702AB361BE179EE009527B0 /* SILDebugCharacteristicToggleFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SILDebugCharacteristicToggleFieldTableViewCell.m; path = DebugApp/ServicesTable/SILDebugCharacteristicToggleFieldTableViewCell.m; sourceTree = "<group>"; };
 		0702AB3A1BE1844E009527B0 /* SILDebugCharacteristicEnumerationFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SILDebugCharacteristicEnumerationFieldTableViewCell.h; path = DebugApp/ServicesTable/SILDebugCharacteristicEnumerationFieldTableViewCell.h; sourceTree = "<group>"; };
 		0702AB3B1BE1844E009527B0 /* SILDebugCharacteristicEnumerationFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SILDebugCharacteristicEnumerationFieldTableViewCell.m; path = DebugApp/ServicesTable/SILDebugCharacteristicEnumerationFieldTableViewCell.m; sourceTree = "<group>"; };
-		070E794C717D970F0A0892C4 /* Pods-SiliconLabsAppWithoutHomeKit Dev.debug-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsAppWithoutHomeKit Dev.debug-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsAppWithoutHomeKit Dev/Pods-SiliconLabsAppWithoutHomeKit Dev.debug-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
 		07140FA01BFD80E8001CD217 /* SILBeaconRegistryEntryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SILBeaconRegistryEntryCell.xib; path = RetailBeacon/SILBeaconRegistryEntryCell.xib; sourceTree = "<group>"; };
 		074691421BFE21A7000D6839 /* UITableViewCell+SILHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SILHelpers.h"; sourceTree = "<group>"; };
 		074691431BFE21A7000D6839 /* UITableViewCell+SILHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SILHelpers.m"; sourceTree = "<group>"; };
@@ -1235,14 +1232,12 @@
 		07BBA7641BD68AB300C2B07E /* SILBluetoothFieldModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SILBluetoothFieldModel.m; path = BluetoothModels/SILBluetoothFieldModel.m; sourceTree = "<group>"; };
 		07F48D5B1BEC0AC500C76F6F /* SILCharacteristicFieldRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILCharacteristicFieldRow.h; sourceTree = "<group>"; };
 		07F48D5E1BEC0B1300C76F6F /* SILFieldRequirementEnforcer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILFieldRequirementEnforcer.h; sourceTree = "<group>"; };
-		0B98AA271D57BF6AA89CE5DC /* Pods-Wireless Gecko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wireless Gecko.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wireless Gecko/Pods-Wireless Gecko.release.xcconfig"; sourceTree = "<group>"; };
 		0C2FCBDA1F9A542300F4F259 /* BlueGecko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueGecko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2FCBDB1F9A542400F4F259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C2FCBE11F9A7F7700F4F259 /* Entitlements.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
 		0C39082D1FA8AC7A00934AD1 /* SILConnectedLightingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SILConnectedLightingViewController.h; path = ConnectedLightingApp/SILConnectedLightingViewController.h; sourceTree = "<group>"; };
 		0C39082E1FA8AC7A00934AD1 /* SILConnectedLightingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SILConnectedLightingViewController.m; path = ConnectedLightingApp/SILConnectedLightingViewController.m; sourceTree = "<group>"; };
 		0C744A481FB369FD0016B3C5 /* ExportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
-		0CA91D794559B3C4861B03B4 /* Pods-WirelessGecko.release-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirelessGecko.release-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-WirelessGecko/Pods-WirelessGecko.release-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
 		0CB9F1571F9F7DC60089DC65 /* BlueGeckoWithHomeKit.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueGeckoWithHomeKit.pch; sourceTree = "<group>"; };
 		0CB9F1581F9F7DE80089DC65 /* BlueGecko.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueGecko.pch; sourceTree = "<group>"; };
 		0CC658131F96C3C200953CDC /* SILDeviceSelectionViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SILDeviceSelectionViewModel.h; path = ../ViewModels/SILDeviceSelectionViewModel.h; sourceTree = "<group>"; };
@@ -1756,17 +1751,11 @@
 		205131D9270365A800C27B92 /* ThunderBoardSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThunderBoardSettings.swift; sourceTree = "<group>"; };
 		205131DB270365A800C27B92 /* DispatchBlockHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchBlockHelpers.swift; sourceTree = "<group>"; };
 		205131DC270365A800C27B92 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		257E756EE6E82EC7E361629D /* Pods-SiliconLabsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsApp/Pods-SiliconLabsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		2F0DE91C258B7F4D00BEFF76 /* SILContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SILContextMenu.swift; sourceTree = "<group>"; };
 		2FD579D5257933DD001D7E9E /* NSObject+SILAssociatedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SILAssociatedObject.h"; sourceTree = "<group>"; };
 		2FD579D6257933DD001D7E9E /* NSObject+SILAssociatedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SILAssociatedObject.m"; sourceTree = "<group>"; };
 		2FD579DC2579352C001D7E9E /* UIViewController+SILContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+SILContext.swift"; sourceTree = "<group>"; };
-		40F66980CDB9137B6A8DE02E /* Pods-Wireless Gecko.debug-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wireless Gecko.debug-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-Wireless Gecko/Pods-Wireless Gecko.debug-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
-		419B3BA27A2361DA1016CF35 /* Pods-SiliconLabsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsAppTests/Pods-SiliconLabsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		426AC50AF4550762BDD32A6E /* Pods_SiliconLabsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiliconLabsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4491900FB788A5F0E74824C6 /* Pods-BlueGecko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGecko.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGecko/Pods-BlueGecko.debug.xcconfig"; sourceTree = "<group>"; };
-		464771D738590C9BE6DC4FC0 /* Pods-SiliconLabsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsAppTests/Pods-SiliconLabsAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		48633F2056480FFEA1BD8A72 /* Pods-SiliconLabsApp Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsApp Dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsApp Dev/Pods-SiliconLabsApp Dev.debug.xcconfig"; sourceTree = "<group>"; };
 		491ADCB91E71EEA300AC2E69 /* SILOTAUICoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILOTAUICoordinator.h; sourceTree = "<group>"; };
 		491ADCBA1E71EEA300AC2E69 /* SILOTAUICoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SILOTAUICoordinator.m; sourceTree = "<group>"; };
 		491ADCBC1E72E58300AC2E69 /* SILOTASetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILOTASetupViewController.h; sourceTree = "<group>"; };
@@ -1840,7 +1829,6 @@
 		4C9EAB5324042EC10023FFB1 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		4C9EAB5624042EC20023FFB1 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		4C9EAB5824042EC20023FFB1 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
-		4CA68516D3541CFE58D83A14 /* Pods-SiliconLabsAppWithoutHomeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsAppWithoutHomeKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsAppWithoutHomeKit/Pods-SiliconLabsAppWithoutHomeKit.debug.xcconfig"; sourceTree = "<group>"; };
 		4CEE629C241276EC00D88354 /* SILCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SILCell.swift; sourceTree = "<group>"; };
 		4D6925E6228453B800E7F015 /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
 		4D6925EB2284549A00E7F015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1848,14 +1836,9 @@
 		4D8E8167238C30AE00E7EC35 /* SILCharacteristicFieldValueResolverContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SILCharacteristicFieldValueResolverContext.m; sourceTree = "<group>"; };
 		4D9E261F2212BFB100617DBA /* SILRangeTestBoardFeatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SILRangeTestBoardFeatures.swift; sourceTree = "<group>"; };
 		4D9E26242212CA7000617DBA /* SILRangeTestBoardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SILRangeTestBoardInfo.swift; sourceTree = "<group>"; };
-		53141C6BB0A69CCB49A16AB2 /* Pods_SiliconLabsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiliconLabsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D477CF57EA327218A303591 /* Pods-SiliconLabsAppWithoutHomeKit Dev.release-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsAppWithoutHomeKit Dev.release-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsAppWithoutHomeKit Dev/Pods-SiliconLabsAppWithoutHomeKit Dev.release-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
-		61C2546AB44D8C072A96C83A /* Pods-SiliconLabsAppWithoutHomeKit.debug-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsAppWithoutHomeKit.debug-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsAppWithoutHomeKit/Pods-SiliconLabsAppWithoutHomeKit.debug-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
-		62E0D0F50D4DF9406BE2453B /* Pods-SiliconLabsApp.release-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsApp.release-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsApp/Pods-SiliconLabsApp.release-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
-		63D66014C77760FCDAC6A134 /* Pods-SiliconLabsApp Dev.release-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsApp Dev.release-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsApp Dev/Pods-SiliconLabsApp Dev.release-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
+		6595316AD9DAA479E08E7C77 /* Pods-BlueGeckoWithHomeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGeckoWithHomeKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGeckoWithHomeKit/Pods-BlueGeckoWithHomeKit.debug.xcconfig"; sourceTree = "<group>"; };
 		6E7E1967C516A49F37A0A7B8 /* Pods_WirelessGecko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WirelessGecko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F25116C7DF08741307B3E0 /* Pods_BlueGecko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueGecko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		722F5EF560719504746B876B /* Pods-BlueGecko.release-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGecko.release-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGecko/Pods-BlueGecko.release-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
 		7928D85C1ECA10FD0075FFCB /* SILHomeKitDebugServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SILHomeKitDebugServicesViewController.h; path = HomeKitDebugApp/ServicesTable/SILHomeKitDebugServicesViewController.h; sourceTree = "<group>"; };
 		7928D85D1ECA10FD0075FFCB /* SILHomeKitDebugServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SILHomeKitDebugServicesViewController.m; path = HomeKitDebugApp/ServicesTable/SILHomeKitDebugServicesViewController.m; sourceTree = "<group>"; };
 		7928D85F1ECA12070075FFCB /* SILHomeKitDebugServicesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SILHomeKitDebugServicesViewController.xib; path = Debug/HomeKit/SILHomeKitDebugServicesViewController.xib; sourceTree = "<group>"; };
@@ -1883,7 +1866,6 @@
 		79E62B4D1ECCA29400344CAA /* SILBluetoothSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILBluetoothSearch.h; sourceTree = "<group>"; };
 		79E62B4E1ECCA29400344CAA /* SILBluetoothSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SILBluetoothSearch.m; sourceTree = "<group>"; };
 		7AAD8E27028334FE640216CD /* Pods_SiliconLabsAppWithoutHomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiliconLabsAppWithoutHomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D7E90CFE18ED0DFB6F387D5 /* Pods-SiliconLabsAppWithoutHomeKit Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsAppWithoutHomeKit Dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsAppWithoutHomeKit Dev/Pods-SiliconLabsAppWithoutHomeKit Dev.debug.xcconfig"; sourceTree = "<group>"; };
 		80066FF62768AFB6007A861C /* String+VersionCompare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+VersionCompare.swift"; sourceTree = "<group>"; };
 		8008B8ED25E67D7A00439F3A /* BlueGeckoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueGeckoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8008B8F125E67D7A00439F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1947,18 +1929,15 @@
 		80C6706825516A450083D20C /* SILTimeLimitRadioButtonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SILTimeLimitRadioButtonState.swift; sourceTree = "<group>"; };
 		80CCC0642564F8780018D649 /* SILBluetoothBrowserExpandableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SILBluetoothBrowserExpandableViewManager.swift; sourceTree = "<group>"; };
 		84342BE824D4F9248E13114A /* Pods_BlueGeckoWithHomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueGeckoWithHomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A73A6BB1453DAE49320F05E /* Pods-SiliconLabsAppWithoutHomeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsAppWithoutHomeKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsAppWithoutHomeKit/Pods-SiliconLabsAppWithoutHomeKit.release.xcconfig"; sourceTree = "<group>"; };
-		8E2432EAF11ADE0582587F26 /* Pods-SiliconLabsApp Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsApp Dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsApp Dev/Pods-SiliconLabsApp Dev.release.xcconfig"; sourceTree = "<group>"; };
-		94A7D6CCB3C047F5ECDF876C /* Pods-BlueGeckoWithHomeKit.debug-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGeckoWithHomeKit.debug-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGeckoWithHomeKit/Pods-BlueGeckoWithHomeKit.debug-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
+		9986430A13A23A68F80BDF23 /* Pods-BlueGecko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGecko.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGecko/Pods-BlueGecko.release.xcconfig"; sourceTree = "<group>"; };
+		9A03A80983BB66BF9EBE9092 /* Pods-WirelessGecko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirelessGecko.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WirelessGecko/Pods-WirelessGecko.debug.xcconfig"; sourceTree = "<group>"; };
 		9B44734325137C6100355E0A /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
 		9B44736025139C5900355E0A /* SILExitPopupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SILExitPopupViewController.m; sourceTree = "<group>"; };
 		9B44736825139C7000355E0A /* SILExitPopupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SILExitPopupViewController.h; sourceTree = "<group>"; };
 		9B44736925139CA100355E0A /* SILExitPopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SILExitPopupViewController.xib; sourceTree = "<group>"; };
 		9BCA4F102514C2BB00E3AADD /* SILBrowserSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SILBrowserSettings.h; sourceTree = "<group>"; };
 		9BCA4F112514C2BB00E3AADD /* SILBrowserSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SILBrowserSettings.m; sourceTree = "<group>"; };
-		9D503111803F12397900799A /* Pods-BlueGecko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGecko.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGecko/Pods-BlueGecko.release.xcconfig"; sourceTree = "<group>"; };
-		A058D14EA4646B6D95A1DC6C /* Pods-SiliconLabsApp.debug-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsApp.debug-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsApp/Pods-SiliconLabsApp.debug-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
-		A96DF018704C41E44822DFDB /* Pods-BlueGeckoWithHomeKit.release-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGeckoWithHomeKit.release-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGeckoWithHomeKit/Pods-BlueGeckoWithHomeKit.release-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
+		A86EE82E777260DC502EEEE0 /* Pods-BlueGeckoWithHomeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGeckoWithHomeKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGeckoWithHomeKit/Pods-BlueGeckoWithHomeKit.release.xcconfig"; sourceTree = "<group>"; };
 		AA0724F51F388D2D001446CA /* SiliconLabsAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SiliconLabsAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		AA0724F61F388D2D001446CA /* DebugDeviceFilterViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugDeviceFilterViewModelTests.swift; sourceTree = "<group>"; };
 		AA0FF4071EFC11AD007C14D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = SILRetailBeaconDetailsViewController.xib; sourceTree = "<group>"; };
@@ -1979,18 +1958,12 @@
 		AA78173E1F33A86100B37B09 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		AA7817421F34C5C500B37B09 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		AAA154A71F20F3D8002078B5 /* DebugDeviceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DebugDeviceViewModel.swift; path = SiliconLabsApp/ViewModels/DebugDeviceViewModel.swift; sourceTree = SOURCE_ROOT; };
+		AABF429E803C7DA5E5F82059 /* Pods-BlueGeckoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGeckoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGeckoTests/Pods-BlueGeckoTests.release.xcconfig"; sourceTree = "<group>"; };
 		AAD9E9311F279A670054C387 /* DebugDeviceFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DebugDeviceFilterViewController.swift; path = DebugApp/DevicesTable/DebugDeviceFilterViewController.swift; sourceTree = "<group>"; };
 		AAD9E9331F279B910054C387 /* SILDebugDeviceFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SILDebugDeviceFilterViewController.xib; path = Debug/Devices/SILDebugDeviceFilterViewController.xib; sourceTree = "<group>"; };
-		B581D509B0AA85FC9096885F /* Pods-SiliconLabsApp.debug-wireless gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsApp.debug-wireless gecko.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsApp/Pods-SiliconLabsApp.debug-wireless gecko.xcconfig"; sourceTree = "<group>"; };
+		AE219F7B9A7C1F4CEC0FD1FD /* Pods-BlueGeckoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGeckoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGeckoTests/Pods-BlueGeckoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA98220D8E87584BC34D74E1 /* Pods_Wireless_Gecko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wireless_Gecko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBA88A0DF7A10843B48785CA /* Pods-WirelessGecko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirelessGecko.release.xcconfig"; path = "Pods/Target Support Files/Pods-WirelessGecko/Pods-WirelessGecko.release.xcconfig"; sourceTree = "<group>"; };
-		BF70D0E88E5D07B837832F9B /* Pods-BlueGeckoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGeckoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGeckoTests/Pods-BlueGeckoTests.release.xcconfig"; sourceTree = "<group>"; };
-		C2B97654F5DCDC40565223A0 /* Pods-Wireless Gecko.release-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wireless Gecko.release-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-Wireless Gecko/Pods-Wireless Gecko.release-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
-		C96C72B6450C03B91081A26A /* Pods-WirelessGecko.debug-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirelessGecko.debug-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-WirelessGecko/Pods-WirelessGecko.debug-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
-		CC4321107ADA97596BC58909 /* Pods-Wireless Gecko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wireless Gecko.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wireless Gecko/Pods-Wireless Gecko.debug.xcconfig"; sourceTree = "<group>"; };
-		D578365DE8C84B43DE844D60 /* Pods-WirelessGecko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirelessGecko.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WirelessGecko/Pods-WirelessGecko.debug.xcconfig"; sourceTree = "<group>"; };
-		D88A34903477559039113A50 /* Pods-SiliconLabsAppWithoutHomeKit.release-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsAppWithoutHomeKit.release-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsAppWithoutHomeKit/Pods-SiliconLabsAppWithoutHomeKit.release-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
-		DB5080BED4F34A4E007FA450 /* Pods-BlueGeckoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGeckoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGeckoTests/Pods-BlueGeckoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D60E1105DCD703E38210E02E /* Pods-BlueGecko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGecko.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGecko/Pods-BlueGecko.debug.xcconfig"; sourceTree = "<group>"; };
 		DC380D4F1E8A9FAA00898C12 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
 		DC380D501E8A9FFD00898C12 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
 		DC4E508D1E92E507004FD829 /* SILOTAHUDPeripheralViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SILOTAHUDPeripheralViewModel.m; path = SiliconLabsApp/ViewModels/SILOTAHUDPeripheralViewModel.m; sourceTree = SOURCE_ROOT; };
@@ -2000,8 +1973,6 @@
 		DCB431101E8315CE00EE94F0 /* SILOTAHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SILOTAHUDView.m; sourceTree = "<group>"; };
 		DCB431121E8315EF00EE94F0 /* SILOTAHUDView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SILOTAHUDView.xib; sourceTree = "<group>"; };
 		DCE784DD1E7AF0700038C87A /* SILBeaconRegistryEntryViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SILBeaconRegistryEntryViewModel.h; path = SiliconLabsApp/ViewModels/SILBeaconRegistryEntryViewModel.h; sourceTree = SOURCE_ROOT; };
-		DD05F35A97FE411FF4B9277B /* Pods-BlueGecko.debug-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGecko.debug-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGecko/Pods-BlueGecko.debug-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
-		E406AEFE9A8583311524FBD8 /* Pods-SiliconLabsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsApp/Pods-SiliconLabsApp.release.xcconfig"; sourceTree = "<group>"; };
 		E607A34C1A8D1F3000DAAFD3 /* SILCalibrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILCalibrationViewController.h; sourceTree = "<group>"; };
 		E607A34D1A8D1F3000DAAFD3 /* SILCalibrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SILCalibrationViewController.m; sourceTree = "<group>"; };
 		E607A34F1A8D4FD100DAAFD3 /* SILSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILSettings.h; sourceTree = "<group>"; };
@@ -2082,10 +2053,7 @@
 		E6CFEB251A686DC000F216AB /* SILHealthThermometerAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SILHealthThermometerAppViewController.h; sourceTree = "<group>"; };
 		E6CFEB261A686DC000F216AB /* SILHealthThermometerAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SILHealthThermometerAppViewController.m; sourceTree = "<group>"; };
 		E6D45D351A6EA74C002D9EC4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		E75945505948D0B91B6E3402 /* Pods-SiliconLabsApp.release-wireless gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsApp.release-wireless gecko.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsApp/Pods-SiliconLabsApp.release-wireless gecko.xcconfig"; sourceTree = "<group>"; };
-		EE79C090DAF2823DC5A7610A /* Pods-SiliconLabsAppWithoutHomeKit Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsAppWithoutHomeKit Dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsAppWithoutHomeKit Dev/Pods-SiliconLabsAppWithoutHomeKit Dev.release.xcconfig"; sourceTree = "<group>"; };
-		F3FCDDB05872DDFD08FD595A /* Pods-BlueGeckoWithHomeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueGeckoWithHomeKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueGeckoWithHomeKit/Pods-BlueGeckoWithHomeKit.release.xcconfig"; sourceTree = "<group>"; };
-		F5199A85C35947636C5A3164 /* Pods-SiliconLabsApp Dev.debug-wireless-gecko.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiliconLabsApp Dev.debug-wireless-gecko.xcconfig"; path = "Pods/Target Support Files/Pods-SiliconLabsApp Dev/Pods-SiliconLabsApp Dev.debug-wireless-gecko.xcconfig"; sourceTree = "<group>"; };
+		F0D4E5C736794A63EF238808 /* Pods-WirelessGecko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirelessGecko.release.xcconfig"; path = "Pods/Target Support Files/Pods-WirelessGecko/Pods-WirelessGecko.release.xcconfig"; sourceTree = "<group>"; };
 		FD3B93A9EE6ACD819FECEADE /* Pods_BlueGeckoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueGeckoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -2136,7 +2104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4990CB48CB947376AC957E0D /* Pods_SiliconLabsAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2661,44 +2628,14 @@
 		11CC9F6FE96DECE887FB6DF6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				257E756EE6E82EC7E361629D /* Pods-SiliconLabsApp.debug.xcconfig */,
-				E406AEFE9A8583311524FBD8 /* Pods-SiliconLabsApp.release.xcconfig */,
-				B581D509B0AA85FC9096885F /* Pods-SiliconLabsApp.debug-wireless gecko.xcconfig */,
-				E75945505948D0B91B6E3402 /* Pods-SiliconLabsApp.release-wireless gecko.xcconfig */,
-				A058D14EA4646B6D95A1DC6C /* Pods-SiliconLabsApp.debug-wireless-gecko.xcconfig */,
-				62E0D0F50D4DF9406BE2453B /* Pods-SiliconLabsApp.release-wireless-gecko.xcconfig */,
-				4CA68516D3541CFE58D83A14 /* Pods-SiliconLabsAppWithoutHomeKit.debug.xcconfig */,
-				61C2546AB44D8C072A96C83A /* Pods-SiliconLabsAppWithoutHomeKit.debug-wireless-gecko.xcconfig */,
-				8A73A6BB1453DAE49320F05E /* Pods-SiliconLabsAppWithoutHomeKit.release.xcconfig */,
-				D88A34903477559039113A50 /* Pods-SiliconLabsAppWithoutHomeKit.release-wireless-gecko.xcconfig */,
-				48633F2056480FFEA1BD8A72 /* Pods-SiliconLabsApp Dev.debug.xcconfig */,
-				F5199A85C35947636C5A3164 /* Pods-SiliconLabsApp Dev.debug-wireless-gecko.xcconfig */,
-				8E2432EAF11ADE0582587F26 /* Pods-SiliconLabsApp Dev.release.xcconfig */,
-				63D66014C77760FCDAC6A134 /* Pods-SiliconLabsApp Dev.release-wireless-gecko.xcconfig */,
-				7D7E90CFE18ED0DFB6F387D5 /* Pods-SiliconLabsAppWithoutHomeKit Dev.debug.xcconfig */,
-				070E794C717D970F0A0892C4 /* Pods-SiliconLabsAppWithoutHomeKit Dev.debug-wireless-gecko.xcconfig */,
-				EE79C090DAF2823DC5A7610A /* Pods-SiliconLabsAppWithoutHomeKit Dev.release.xcconfig */,
-				5D477CF57EA327218A303591 /* Pods-SiliconLabsAppWithoutHomeKit Dev.release-wireless-gecko.xcconfig */,
-				CC4321107ADA97596BC58909 /* Pods-Wireless Gecko.debug.xcconfig */,
-				40F66980CDB9137B6A8DE02E /* Pods-Wireless Gecko.debug-wireless-gecko.xcconfig */,
-				0B98AA271D57BF6AA89CE5DC /* Pods-Wireless Gecko.release.xcconfig */,
-				C2B97654F5DCDC40565223A0 /* Pods-Wireless Gecko.release-wireless-gecko.xcconfig */,
-				4491900FB788A5F0E74824C6 /* Pods-BlueGecko.debug.xcconfig */,
-				DD05F35A97FE411FF4B9277B /* Pods-BlueGecko.debug-wireless-gecko.xcconfig */,
-				9D503111803F12397900799A /* Pods-BlueGecko.release.xcconfig */,
-				722F5EF560719504746B876B /* Pods-BlueGecko.release-wireless-gecko.xcconfig */,
-				06CC32BDFF67F87AF59FFD4D /* Pods-BlueGeckoWithHomeKit.debug.xcconfig */,
-				94A7D6CCB3C047F5ECDF876C /* Pods-BlueGeckoWithHomeKit.debug-wireless-gecko.xcconfig */,
-				F3FCDDB05872DDFD08FD595A /* Pods-BlueGeckoWithHomeKit.release.xcconfig */,
-				A96DF018704C41E44822DFDB /* Pods-BlueGeckoWithHomeKit.release-wireless-gecko.xcconfig */,
-				D578365DE8C84B43DE844D60 /* Pods-WirelessGecko.debug.xcconfig */,
-				C96C72B6450C03B91081A26A /* Pods-WirelessGecko.debug-wireless-gecko.xcconfig */,
-				BBA88A0DF7A10843B48785CA /* Pods-WirelessGecko.release.xcconfig */,
-				0CA91D794559B3C4861B03B4 /* Pods-WirelessGecko.release-wireless-gecko.xcconfig */,
-				419B3BA27A2361DA1016CF35 /* Pods-SiliconLabsAppTests.debug.xcconfig */,
-				464771D738590C9BE6DC4FC0 /* Pods-SiliconLabsAppTests.release.xcconfig */,
-				DB5080BED4F34A4E007FA450 /* Pods-BlueGeckoTests.debug.xcconfig */,
-				BF70D0E88E5D07B837832F9B /* Pods-BlueGeckoTests.release.xcconfig */,
+				D60E1105DCD703E38210E02E /* Pods-BlueGecko.debug.xcconfig */,
+				9986430A13A23A68F80BDF23 /* Pods-BlueGecko.release.xcconfig */,
+				AE219F7B9A7C1F4CEC0FD1FD /* Pods-BlueGeckoTests.debug.xcconfig */,
+				AABF429E803C7DA5E5F82059 /* Pods-BlueGeckoTests.release.xcconfig */,
+				6595316AD9DAA479E08E7C77 /* Pods-BlueGeckoWithHomeKit.debug.xcconfig */,
+				A86EE82E777260DC502EEEE0 /* Pods-BlueGeckoWithHomeKit.release.xcconfig */,
+				9A03A80983BB66BF9EBE9092 /* Pods-WirelessGecko.debug.xcconfig */,
+				F0D4E5C736794A63EF238808 /* Pods-WirelessGecko.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -4427,7 +4364,6 @@
 				71F25116C7DF08741307B3E0 /* Pods_BlueGecko.framework */,
 				84342BE824D4F9248E13114A /* Pods_BlueGeckoWithHomeKit.framework */,
 				6E7E1967C516A49F37A0A7B8 /* Pods_WirelessGecko.framework */,
-				53141C6BB0A69CCB49A16AB2 /* Pods_SiliconLabsAppTests.framework */,
 				FD3B93A9EE6ACD819FECEADE /* Pods_BlueGeckoTests.framework */,
 			);
 			name = Frameworks;
@@ -4777,7 +4713,6 @@
 				0C2FCB021F9A542300F4F259 /* Sources */,
 				0C2FCB961F9A542300F4F259 /* Frameworks */,
 				0C2FCB9C1F9A542300F4F259 /* Resources */,
-				0C2FCBD31F9A542300F4F259 /* [CP] Embed Pods Frameworks */,
 				0C2FCBD21F9A542300F4F259 /* ShellScript */,
 			);
 			buildRules = (
@@ -4797,7 +4732,6 @@
 				0F4E50F521525FDC00F58ACE /* Sources */,
 				0F4E518A21525FDC00F58ACE /* Frameworks */,
 				0F4E519021525FDC00F58ACE /* Resources */,
-				0F4E51C621525FDC00F58ACE /* [CP] Embed Pods Frameworks */,
 				0F4E51C521525FDC00F58ACE /* ShellScript */,
 			);
 			buildRules = (
@@ -4817,7 +4751,6 @@
 				8008B8E925E67D7A00439F3A /* Sources */,
 				8008B8EA25E67D7A00439F3A /* Frameworks */,
 				8008B8EB25E67D7A00439F3A /* Resources */,
-				0C1F5095D7F56DCE0DB97319 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4837,7 +4770,6 @@
 				E6CAA21C1A64011900A49DAF /* Sources */,
 				E6CAA21D1A64011900A49DAF /* Frameworks */,
 				E6CAA21E1A64011900A49DAF /* Resources */,
-				2647BDE6F2DEEDB67778BAD3 /* [CP] Embed Pods Frameworks */,
 				071C49B01C33273E003F80B8 /* ShellScript */,
 			);
 			buildRules = (
@@ -4853,11 +4785,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6CAA2461A64011900A49DAF /* Build configuration list for PBXNativeTarget "SiliconLabsAppTests" */;
 			buildPhases = (
-				E0208659BCDBD1EC7CF7FA98 /* [CP] Check Pods Manifest.lock */,
 				E6CAA2351A64011900A49DAF /* Sources */,
 				E6CAA2361A64011900A49DAF /* Frameworks */,
 				E6CAA2371A64011900A49DAF /* Resources */,
-				74DEC8866D3C13D301822CE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4877,7 +4807,7 @@
 			attributes = {
 				CLASSPREFIX = SIL;
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = SiliconLabs;
 				TargetAttributes = {
 					0C2FCB001F9A542300F4F259 = {
@@ -4934,10 +4864,9 @@
 			};
 			buildConfigurationList = E6CAA21B1A64011900A49DAF /* Build configuration list for PBXProject "SiliconLabsApp" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -5201,64 +5130,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" d4644999f9acaab70a6af52eebed37881b8dc107 3ac40070001448c72125e7becb3d822cc0a1f74a30c6327231b6eb046bdd7e4e";
 		};
-		0C1F5095D7F56DCE0DB97319 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlueGeckoTests/Pods-BlueGeckoTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
-				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
-				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/Eddystone/Eddystone.framework",
-				"${BUILT_PRODUCTS_DIR}/IP-UIKit-Wisdom/IP_UIKit_Wisdom.framework",
-				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
-				"${BUILT_PRODUCTS_DIR}/MZTimerLabel/MZTimerLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
-				"${BUILT_PRODUCTS_DIR}/WYPopoverController/WYPopoverController.framework",
-				"${BUILT_PRODUCTS_DIR}/XMLDictionary/XMLDictionary.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eddystone.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IP_UIKit_Wisdom.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZTimerLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYPopoverController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMLDictionary.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueGeckoTests/Pods-BlueGeckoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0C2FCB011F9A542300F4F259 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -5290,58 +5161,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" d4644999f9acaab70a6af52eebed37881b8dc107 3ac40070001448c72125e7becb3d822cc0a1f74a30c6327231b6eb046bdd7e4e\n";
 		};
-		0C2FCBD31F9A542300F4F259 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlueGecko/Pods-BlueGecko-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
-				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
-				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/Eddystone/Eddystone.framework",
-				"${BUILT_PRODUCTS_DIR}/IP-UIKit-Wisdom/IP_UIKit_Wisdom.framework",
-				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
-				"${BUILT_PRODUCTS_DIR}/MZTimerLabel/MZTimerLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
-				"${BUILT_PRODUCTS_DIR}/WYPopoverController/WYPopoverController.framework",
-				"${BUILT_PRODUCTS_DIR}/XMLDictionary/XMLDictionary.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eddystone.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IP_UIKit_Wisdom.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZTimerLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYPopoverController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMLDictionary.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueGecko/Pods-BlueGecko-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0F4E50F421525FDC00F58ACE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -5372,168 +5191,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" d4644999f9acaab70a6af52eebed37881b8dc107 3ac40070001448c72125e7becb3d822cc0a1f74a30c6327231b6eb046bdd7e4e\n";
-		};
-		0F4E51C621525FDC00F58ACE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WirelessGecko/Pods-WirelessGecko-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
-				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
-				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/Eddystone/Eddystone.framework",
-				"${BUILT_PRODUCTS_DIR}/IP-UIKit-Wisdom/IP_UIKit_Wisdom.framework",
-				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
-				"${BUILT_PRODUCTS_DIR}/MZTimerLabel/MZTimerLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
-				"${BUILT_PRODUCTS_DIR}/WYPopoverController/WYPopoverController.framework",
-				"${BUILT_PRODUCTS_DIR}/XMLDictionary/XMLDictionary.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eddystone.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IP_UIKit_Wisdom.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZTimerLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYPopoverController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMLDictionary.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WirelessGecko/Pods-WirelessGecko-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2647BDE6F2DEEDB67778BAD3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlueGeckoWithHomeKit/Pods-BlueGeckoWithHomeKit-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
-				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
-				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/Eddystone/Eddystone.framework",
-				"${BUILT_PRODUCTS_DIR}/IP-UIKit-Wisdom/IP_UIKit_Wisdom.framework",
-				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
-				"${BUILT_PRODUCTS_DIR}/MZTimerLabel/MZTimerLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
-				"${BUILT_PRODUCTS_DIR}/WYPopoverController/WYPopoverController.framework",
-				"${BUILT_PRODUCTS_DIR}/XMLDictionary/XMLDictionary.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eddystone.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IP_UIKit_Wisdom.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZTimerLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYPopoverController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMLDictionary.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlueGeckoWithHomeKit/Pods-BlueGeckoWithHomeKit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		74DEC8866D3C13D301822CE8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SiliconLabsAppTests/Pods-SiliconLabsAppTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
-				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
-				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/Eddystone/Eddystone.framework",
-				"${BUILT_PRODUCTS_DIR}/IP-UIKit-Wisdom/IP_UIKit_Wisdom.framework",
-				"${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework",
-				"${BUILT_PRODUCTS_DIR}/MZTimerLabel/MZTimerLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
-				"${BUILT_PRODUCTS_DIR}/WYPopoverController/WYPopoverController.framework",
-				"${BUILT_PRODUCTS_DIR}/XMLDictionary/XMLDictionary.framework",
-				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
-				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eddystone.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IP_UIKit_Wisdom.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KVOController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZTimerLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYPopoverController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMLDictionary.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SiliconLabsAppTests/Pods-SiliconLabsAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		8DD93D99CC05EFD0D14BF25A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5569,28 +5226,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-BlueGeckoWithHomeKit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0208659BCDBD1EC7CF7FA98 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SiliconLabsAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -6561,7 +6196,7 @@
 /* Begin XCBuildConfiguration section */
 		0C2FCBD61F9A542300F4F259 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4491900FB788A5F0E74824C6 /* Pods-BlueGecko.debug.xcconfig */;
+			baseConfigurationReference = D60E1105DCD703E38210E02E /* Pods-BlueGecko.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBlueGecko;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -6589,13 +6224,13 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "SiliconLabsApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0C2FCBD81F9A542300F4F259 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D503111803F12397900799A /* Pods-BlueGecko.release.xcconfig */;
+			baseConfigurationReference = 9986430A13A23A68F80BDF23 /* Pods-BlueGecko.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBlueGecko;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -6621,13 +6256,13 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SiliconLabsApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		0F4E51C821525FDC00F58ACE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D578365DE8C84B43DE844D60 /* Pods-WirelessGecko.debug.xcconfig */;
+			baseConfigurationReference = 9A03A80983BB66BF9EBE9092 /* Pods-WirelessGecko.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconWirelessGecko;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -6657,13 +6292,13 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "SiliconLabsApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0F4E51CA21525FDC00F58ACE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBA88A0DF7A10843B48785CA /* Pods-WirelessGecko.release.xcconfig */;
+			baseConfigurationReference = F0D4E5C736794A63EF238808 /* Pods-WirelessGecko.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconWirelessGecko;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -6691,13 +6326,13 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SiliconLabsApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		8008B8F425E67D7A00439F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB5080BED4F34A4E007FA450 /* Pods-BlueGeckoTests.debug.xcconfig */;
+			baseConfigurationReference = AE219F7B9A7C1F4CEC0FD1FD /* Pods-BlueGeckoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -6730,7 +6365,7 @@
 		};
 		8008B8F525E67D7A00439F3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF70D0E88E5D07B837832F9B /* Pods-BlueGeckoTests.release.xcconfig */;
+			baseConfigurationReference = AABF429E803C7DA5E5F82059 /* Pods-BlueGeckoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -6782,6 +6417,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -6839,6 +6475,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -6869,7 +6506,7 @@
 		};
 		E6CAA2441A64011900A49DAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06CC32BDFF67F87AF59FFD4D /* Pods-BlueGeckoWithHomeKit.debug.xcconfig */;
+			baseConfigurationReference = 6595316AD9DAA479E08E7C77 /* Pods-BlueGeckoWithHomeKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBlueGecko;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -6899,13 +6536,13 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "SiliconLabsApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E6CAA2451A64011900A49DAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3FCDDB05872DDFD08FD595A /* Pods-BlueGeckoWithHomeKit.release.xcconfig */;
+			baseConfigurationReference = A86EE82E777260DC502EEEE0 /* Pods-BlueGeckoWithHomeKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBlueGecko;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -6934,13 +6571,12 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SiliconLabsApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		E6CAA2471A64011900A49DAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 419B3BA27A2361DA1016CF35 /* Pods-SiliconLabsAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -6968,7 +6604,6 @@
 		};
 		E6CAA2481A64011900A49DAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464771D738590C9BE6DC4FC0 /* Pods-SiliconLabsAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
