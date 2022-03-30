@@ -4825,7 +4825,7 @@
 				ORGANIZATIONNAME = SiliconLabs;
 				TargetAttributes = {
 					0C2FCB001F9A542300F4F259 = {
-						DevelopmentTeam = 52444FG85C;
+						DevelopmentTeam = Q7243K6B9Z;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.HomeKit = {
@@ -6506,19 +6506,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D60E1105DCD703E38210E02E /* Pods-BlueGecko.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBlueGecko;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFatigueSense;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/SiliconLabsApp/SupportingFiles/BlueGecko/Entitlements.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 48;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 52444FG85C;
-				DISPLAY_NAME = "EFR Connect";
+				DEVELOPMENT_TEAM = Q7243K6B9Z;
+				DISPLAY_NAME = FatigueSense;
 				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SiliconLabsApp/SupportingFiles/BlueGecko/BlueGecko.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "$(inherited)";
@@ -6526,7 +6527,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.4.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.silabs.BlueGeckoDemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatiguesense.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SiliconLabsApp-Bridging-Header.h";
@@ -6540,27 +6541,29 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9986430A13A23A68F80BDF23 /* Pods-BlueGecko.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBlueGecko;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFatigueSense;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/SiliconLabsApp/SupportingFiles/BlueGecko/Entitlements.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 48;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 52444FG85C;
-				DISPLAY_NAME = "EFR Connect";
+				DEVELOPMENT_TEAM = Q7243K6B9Z;
+				DISPLAY_NAME = FatigueSense;
 				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SiliconLabsApp/SupportingFiles/BlueGecko/BlueGecko.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/SiliconLabsApp/SupportingFiles/BlueGecko/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.4.3;
-				PRODUCT_BUNDLE_IDENTIFIER = com.silabs.BlueGeckoDemoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatiguesense.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SiliconLabsApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
@@ -6731,7 +6734,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development: antam.8314@gmail.com (8746DX8RW5)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -6789,7 +6792,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Silicon Laboratories Inc (52444FG85C)";
+				CODE_SIGN_IDENTITY = "Apple Development: antam.8314@gmail.com (8746DX8RW5)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -6804,7 +6807,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "25eb3815-e469-43a3-9bff-b43eec840700";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 2;
