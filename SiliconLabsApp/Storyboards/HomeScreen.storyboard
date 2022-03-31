@@ -13,7 +13,9 @@
         <!--SILAppBluetoothBrowser-->
         <scene sceneID="apz-KM-sP5">
             <objects>
-                <viewControllerPlaceholder storyboardName="SILAppBluetoothBrowser" referencedIdentifier="SILAppBluetoothBrowser" id="0af-ig-1j0" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="SILAppBluetoothBrowser" referencedIdentifier="SILAppBluetoothBrowser" id="0af-ig-1j0" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6g4-NE-Mag"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lcM-bg-lz3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2207.971014492754" y="124.55357142857142"/>
@@ -33,13 +35,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pF4-Hw-fcW">
                                 <rect key="frame" x="82" y="108" width="251" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="sil_bgGreyColor"/>
                                 <color key="tintColor" name="sil_siliconLabsRedColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Connect to Bluetooth Device"/>
                                 <connections>
-                                    <segue destination="0af-ig-1j0" kind="popoverPresentation" popoverAnchorView="pF4-Hw-fcW" id="DVH-zu-hrz">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="0af-ig-1j0" kind="show" id="1QI-Fy-UrY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Heart Rate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZq-9X-8U3">
@@ -115,18 +116,18 @@
                                 <color key="textColor" name="sil_siliconLabsRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fatigued?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HkM-d0-NYf">
-                                <rect key="frame" x="94" y="574" width="227" height="71"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fatigued" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HkM-d0-NYf">
+                                <rect key="frame" x="20" y="574" width="374" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="67"/>
                                 <color key="textColor" name="sil_strongBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfJ-FJ-gcH">
-                                <rect key="frame" x="165" y="625" width="85" height="71"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Not" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfJ-FJ-gcH">
+                                <rect key="frame" x="132" y="531" width="151" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="67"/>
+                                <color key="textColor" name="sil_lightBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -160,6 +161,12 @@
     </scenes>
     <resources>
         <image name="LogoHorizontal" width="269.33334350585938" height="47.666667938232422"/>
+        <namedColor name="sil_bgGreyColor">
+            <color red="0.94509803921568625" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="sil_lightBlueColor">
+            <color red="0.61960784313725492" green="0.16862745098039217" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="sil_regularBlueColor">
             <color red="0.61960784313725492" green="0.16862745098039217" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

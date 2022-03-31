@@ -18,7 +18,7 @@
 @implementation SILAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    sleep(2);
+    sleep(1);
     [SILAppearance setupAppearance];
     [Fabric with:@[CrashlyticsKit]];
     [SILRealmConfiguration updateRealmConfigurationIfNeeded];
